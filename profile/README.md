@@ -1,6 +1,6 @@
 # Apex Research Labs, LLC
 
-Creators of **APEX-256™** (`v2.1.2.1`) — a zero-allocation, constant-time 256-bit stream cipher and modular cryptographic suite engineered for SWaP-C constrained embedded systems, tactical telemetry, and bare-metal IoT hardware (`ARM Cortex-M`, `ESP32-S3`, `nRF52840`, `RISC-V`).
+Creators of **APEX-256™** (`v2.1.4.1`), a zero-allocation, constant-time 256-bit stream cipher and modular cryptographic suite engineered for SWaP-C constrained embedded systems, tactical telemetry, and bare-metal IoT hardware (`ARM Cortex-M`, `ESP32-S3`, `nRF52840`, `RISC-V`).
 
 ### Core Architecture & Companion Suite
 * **APEX-256 Stream Engine:** 32-byte register state (`0 bytes` heap allocation), 1:1 payload density (zero ciphertext expansion), branchless 24-round coupled initialization, Z3 SMT formally verified bijection, and 32 TB PractRand / BigCrush / NIST SP 800-22 certified.
