@@ -1,8 +1,8 @@
 # Apex Research Labs, LLC
 
-Creators of **APEX-256™** (`v2.2.8.0`), a zero-allocation, constant-time 256-bit stream cipher and modular cryptographic suite engineered for SWaP-C constrained embedded systems, tactical telemetry, and bare-metal IoT hardware (`ARM Cortex-M`, `ESP32-S3`, `nRF52840`, `RISC-V`, and `FPGA RTL`).
+Creators of **APEX-256™** (`v2.2.8.2`), a zero-allocation, constant-time 256-bit stream cipher and modular cryptographic suite engineered for SWaP-C constrained embedded systems, tactical telemetry, and bare-metal IoT hardware (`ARM Cortex-M`, `ESP32-S3`, `nRF52840`, `RISC-V`, and `FPGA RTL`).
 
-### Core Architecture & Companion Suite (`v2.2.8.0`)
+### Core Architecture & Companion Suite (`v2.2.8.2`)
 * **Self-Contained Zero-Allocation Context (`40 Bytes`):** `40-byte` self-contained `Apex256Nano` instance (`32-byte` / `256-bit` four-register core manifold and 8 bytes of companion control metadata; `0 bytes` dynamic heap allocation, `0 bytes` static `.bss`/`.tbss`/`.data`), 1:1 payload density (zero ciphertext expansion), and branchless 24-round coupled initialization.
 * **Stage 1 & Stage 2 Architectural Capabilities (Waves 15 - 16):**
   * **Ephemeral Hardware Multiplier Masking:** Bit-exact side-channel operand blinding across the 64-bit modular multiplier datapath (`CPA |r| = 0.0024`, Welch `|t| = 0.74 < 4.50`, `100%` wire-compatible with standard Known Answer Tests).
